@@ -17,7 +17,7 @@ if(isset($_POST['editar'])){
   $preco = $_POST['preco'];
   $quantidade_em_estoque = $_POST['quant'];
 
-  print_r($_POST);
+  // print_r($_POST);
   
     #########################MANIPULANDO ARQUIVOS COM PHP -- FOTOS --- PDFS ETC########
   
@@ -39,7 +39,7 @@ if(isset($_POST['editar'])){
     ########################MANIPULANDO ARQUIVOS COM PHP -- FOTOS --- PDFS ETC########
     //echo "MOVED: " . $foto;
 
-    $objProd = new Produtos();
+    // $objProd = new Produtos();
     $objProd->nome = $nome;
     $objProd->descricao  = $descricao;
     $objProd->preco  = $preco;

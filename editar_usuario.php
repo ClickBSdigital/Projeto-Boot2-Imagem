@@ -93,7 +93,7 @@ if(isset($_POST['editar'])){
         </div>
       </nav>
     <div class="p-5 bg-dark text-white">
-        <h1>SysCad</h1>
+        <h1>Sistema do Eliandro</h1>
     
       </div>
     <div class="container">
